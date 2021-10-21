@@ -224,7 +224,7 @@ public class RedBlackTree<T extends Comparable<T>> implements SortedCollectionIn
 	    insert(8);
 
 	    rotation(3, 5);
-	    assertEquals("[7, 3, 8, 2, 5, 4, 6], Node.toString());
+	    assertEquals("[7, 3, 8, 2, 5, 4, 6]", Node.toString());
 
 
 	}
@@ -237,7 +237,7 @@ public class RedBlackTree<T extends Comparable<T>> implements SortedCollectionIn
         insert(8);
 
         rotation (7, 5);
-        assertEquals("[7, 5, 8, 4, 6], Node.toString());
+        assertEquals("[7, 5, 8, 4, 6]", Node.toString());
 
 
     /**
